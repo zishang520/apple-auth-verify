@@ -1,0 +1,23 @@
+{
+    "name": "luoyy/apple-auth-verify",
+    "description": "Apple Auth Verifyn",
+    "type": "library",
+    "keywords": ["apple-auth", "apple-auth-verify"],
+    "license": "MIT",
+    "version": "v1.0.1",
+    "authors": [{
+        "name": "luoyy",
+        "email": "zishang520@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6.3 || ^7.0.1",
+        "web-token/jwt-core": "^2.2",
+        "web-token/jwt-signature-algorithm-rsa": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "luoyy\\AppleAuthVerify\\": "src/"
+        }
+    }
+}
