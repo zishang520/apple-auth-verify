@@ -4,7 +4,6 @@
     "type": "library",
     "keywords": ["apple-auth", "apple-auth-verify"],
     "license": "MIT",
-    "version": "v1.0.1",
     "authors": [{
         "name": "luoyy",
         "email": "zishang520@gmail.com"
